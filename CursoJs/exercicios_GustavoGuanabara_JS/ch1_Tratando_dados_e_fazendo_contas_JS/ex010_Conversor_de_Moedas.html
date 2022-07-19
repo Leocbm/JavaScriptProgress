@@ -1,0 +1,20 @@
+<!-- Crie um programa que leia quanto dinheiro a pessoa tem na carteira e mostre quantos dolares ela pode comprar. -->
+<!-- Considerar US$1 = RS$3,27 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 010</title>
+</head>
+<body>
+    <script>
+        alert('Descubra quantos dólares é possível comprar com seu dinheiro atual.')
+        var dinheiro = Number(prompt('Informe a sua quantidade atual de dinheiro e descubra: '))
+        var dolar = 3.27
+        var conversao = (dinheiro/dolar).toFixed(2)
+        prompt(`Atualmente é possível comprar ${conversao} dólares`)
+    </script>
+</body>
+</html>

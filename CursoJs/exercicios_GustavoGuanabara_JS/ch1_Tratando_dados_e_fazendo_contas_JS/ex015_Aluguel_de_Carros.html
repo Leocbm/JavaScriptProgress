@@ -1,0 +1,19 @@
+<!-- Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos
+quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado. -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex015</title>
+</head>
+<body>
+    <script>
+        alert('Descubra o preço de um aluguél de carros.')
+        var kilometros = Number(prompt('Informe a quantidade de kilometros percorridos: '))
+        var dias = Number(prompt('Informe a quantidade de dias alugados: ')) 
+        alert(`Sabendo que a diária custa R$60 e R$0,15 por Km rodado, o total a pagar pelo aluguel é R$${(kilometros*0.15)+(dias*60)}.`)
+    </script>
+</body>
+</html>
